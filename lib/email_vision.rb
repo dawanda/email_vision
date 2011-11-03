@@ -1,7 +1,7 @@
 require 'savon'
 
 class EmailVision
-  WSDL = "http://emvapi.emv3.com/apimember/services/MemberService?wsdl"
+  WSDL = "https://p5apie.emv3.com/apimember/services/MemberService?wsdl"
   NAMESPACE = 'http://api.service.apimember.emailvision.com/'
   SESSION_TIMEOUT = 10*60
   VERSION = File.read( File.join(File.dirname(__FILE__),'..','VERSION') ).strip
